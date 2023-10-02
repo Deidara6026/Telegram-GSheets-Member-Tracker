@@ -1,6 +1,6 @@
 ## README
 
-This code is a Python script that utilizes the `telebot` library to create a Telegram bot. The bot performs various functions related to managing users in Telegram groups.
+This is a Python script that utilizes the `pytelegrambotapi` library to create a Telegram bot. The bot performs various functions related to managing users in Telegram groups based on their status tracked by a Google sheet.
 
 ### Functions
 
@@ -23,7 +23,7 @@ This code is a Python script that utilizes the `telebot` library to create a Tel
 To use this script, you need to have the following:
 
 - Python installed on your system
-- The necessary libraries (`telebot`, `schedule`, `csv`, `pygsheets`)
+- The necessary libraries (`pytelegrambotapi`, `schedule`, `csv`, `pygsheets`)
 - A Telegram bot token
 - A Google Sheets API service account file (`client.json`)
 - A `list.csv` file to store the group information
